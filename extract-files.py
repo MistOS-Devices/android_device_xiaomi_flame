@@ -92,8 +92,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libaudioutils_shim.so')
         .add_needed('libbluetooth_audio_session_aidl_shim.so')
         .binary_regex_replace(b'BluetoothAudioSession14GetAudioConfigEv', b'BluetoothAudioSession14GetAudioConfV4Ev'),
-    'vendor/lib64/libsensorndkbridge.so': blob_fixup()
-        .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .replace_needed('android.hardware.graphics.allocator-V1-ndk.so', 'android.hardware.graphics.allocator-V2-ndk.so')
         .replace_needed('android.hardware.camera.common-V2-ndk.so', 'android.hardware.camera.common-V1-ndk.so'),

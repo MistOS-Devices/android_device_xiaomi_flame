@@ -1648,7 +1648,6 @@ vendor/lib64/libSEESalt.so
 vendor/lib64/libUSTANative.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsensorcal.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_direct_channel_stub.so
