@@ -71,8 +71,12 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/media_codecs_ravelin.xml': blob_fixup()
         .regex_replace('.*media_codecs_(google_audio|vendor_audio|google_telephony|google_c2).*\n', ''),
     'vendor/etc/seccomp_policy/gnss@2.0-qsap-location.policy': blob_fixup()
-        .add_line_if_missing('sched_get_priority_min: 1'),
-    'vendor/etc/seccomp_policy/qesdksec.policy': blob_fixup()
+        .add_line_if_missing('sched_get_priority_min: 1')
+        .add_line_if_missing('sched_get_priority_max: 1'),
+    (
+        'vendor/etc/seccomp_policy/qesdksec.policy',
+        'vendor/etc/seccomp_policy/qsap_qapeservice.policy',
+    ): blob_fixup()
         .add_line_if_missing('lseek: 1'),
     'vendor/lib64/hw/android.hardware.bluetooth.audio_sw.so': blob_fixup()
         .add_needed('libbluetooth_audio_session_qti_shim.so')
