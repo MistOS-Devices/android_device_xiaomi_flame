@@ -237,9 +237,15 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayFlame \
     Launcher3OverlayFlame \
     SettingsOverlayFlame \
+    SettingsProviderOverlayFlamePoco \
+    SettingsProviderOverlayFlameRedmi \
+    SettingsProviderOverlayFlameRedmiCN \
     SystemUIOverlayFlame \
     TelephonyOverlayFlame \
-    WifiOverlayFlame
+    WifiOverlayFlame \
+    WifiOverlayFlamePoco \
+    WifiOverlayFlameRedmi \
+    WifiOverlayFlameRedmiCN
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
