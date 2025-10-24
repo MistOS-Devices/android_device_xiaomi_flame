@@ -59,15 +59,9 @@ vendor/lib64/libqtigefar.so;DISABLE_DEPS
 vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V1-ndk.so
 
 # Audio configs
-vendor/etc/audio/sku_ravelin/audio_effects_config.xml
-vendor/etc/audio/sku_ravelin/audio_effects_config_stub.xml
 vendor/etc/audio/sku_ravelin/mixer_paths_ravelin_qrd.xml
 vendor/etc/audio/sku_ravelin/resourcemanager_ravelin_qrd.xml
-vendor/etc/audio_policy_volumes.xml
 vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml
-vendor/etc/default_volume_tables.xml
-vendor/etc/r_submix_audio_policy_configuration.xml
-vendor/etc/stub_audio_policy_configuration.xml
 vendor/etc/usecaseKvManager.xml
 
 # Audio firmware
