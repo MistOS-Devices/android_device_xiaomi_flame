@@ -17,3 +17,13 @@ telephony.lteOnCdmaDevice=1
 
 # Wi-Fi Display
 persist.debug.wfd.enable=1
+
+# MistOS
+ro.mist.display=1640 x 720, 120 hz
+ro.mist.battery=5160mah
+ro.mist.soc=Snapdragon® 4 Gen 2
+ro.mist.camera=50MP
+ro.mist.front=8MP
+ro.mist.platform=SM4450
+ro.mist.screen=6.88' IPS LCD
+ro.mist.device.name=Poco M7 5G | Redmi 14C 5G
