@@ -1,0 +1,20 @@
+[
+  {
+    "remote"     : "github",
+    "repository" : "flame4blame/proprietary_vendor_xiaomi_flame",
+    "target_path": "vendor/xiaomi/flame",
+    "branch"     : "lineage-24.0"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "flame4blame/android_device_xiaomi_flame-kernel",
+    "target_path": "device/xiaomi/flame-kernel",
+    "branch"     : "lineage-24.0"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch"     : "lineage-24.0"
+  }
+]
