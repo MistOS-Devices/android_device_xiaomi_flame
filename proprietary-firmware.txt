@@ -1,4 +1,4 @@
-# All firmware from flame-user 16 BP2A.250605.031.A3 OS3.0.302.0.WGUINXM release-keys, unless pinned
+# All firmware from flame-user 16 BP2A.250605.031.A3 OS3.0.303.0.WGUINXM release-keys, unless pinned
 
 abl.img;AB
 aop.img;AB

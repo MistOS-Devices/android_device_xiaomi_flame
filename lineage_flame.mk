@@ -21,8 +21,8 @@ PRODUCT_MODEL := 2411DRN47I
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="flame_in-user 16 BP2A.250605.031.A3 OS3.0.302.0.WGUINXM release-keys" \
-    BuildFingerprint=Redmi/flame_in/flame:16/BP2A.250605.031.A3/OS3.0.302.0.WGUINXM:user/release-keys \
+    BuildDesc="flame_in-user 16 BP2A.250605.031.A3 OS3.0.303.0.WGUINXM release-keys" \
+    BuildFingerprint=Redmi/flame_in/flame:16/BP2A.250605.031.A3/OS3.0.303.0.WGUINXM:user/release-keys \
     DeviceName=flame \
     DeviceProduct=flame_in
 
