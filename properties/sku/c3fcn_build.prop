@@ -1,0 +1,10 @@
+# Bluetooth
+bluetooth.device.default_name=Redmi 14R 5G
+
+# Device
+ro.product.odm.brand=Redmi
+ro.product.odm.model=24113RN34C
+ro.product.odm.name=flame
+
+# USB
+vendor.usb.product_string=Redmi 14R 5G

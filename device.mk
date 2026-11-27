@@ -281,6 +281,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/xiaomi \
     vendor/qcom/opensource/usb/etc
 
+# System properties
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/properties/sku/,$(TARGET_COPY_OUT_ODM)/etc)
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \

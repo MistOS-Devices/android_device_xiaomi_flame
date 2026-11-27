@@ -196,6 +196,9 @@ ro.soc.manufacturer=QTI
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# System properties
+ro.product.property_source_order=odm,vendor,product,system_ext,system
+
 # USB
 sys.usb.mtp.batchcancel=1
 vendor.usb.controller=a600000.dwc3
