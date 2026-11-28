@@ -66,19 +66,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libstandbyfeature.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
-    (
-        'vendor/bin/qcc-vendor',
-        'vendor/bin/xtra-daemon',
-        'vendor/lib64/libcne.so',
-        'vendor/lib64/libqcc_sdk.so',
-    ): blob_fixup()
-        .add_needed('libbinder_shim.so'),
     'vendor/lib64/libqcodec2_core.so': blob_fixup()
-        .add_needed('libcodec2_shim.so')
         .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
-    'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
-        .add_needed('libbinder_shim.so')
-        .add_needed('libhidlbase_shim.so'),
     'vendor/etc/media_codecs_ravelin.xml': blob_fixup()
         .regex_replace('.*media_codecs_(google_audio|vendor_audio|google_telephony|google_c2).*\n', ''),
     'vendor/etc/seccomp_policy/gnss@2.0-qsap-location.policy': blob_fixup()
