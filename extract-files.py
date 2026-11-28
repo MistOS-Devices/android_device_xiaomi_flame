@@ -85,6 +85,9 @@ blob_fixups: blob_fixups_user_type = {
         .add_line_if_missing('sched_get_priority_min: 1'),
     'vendor/etc/seccomp_policy/qesdksec.policy': blob_fixup()
         .add_line_if_missing('lseek: 1'),
+    'vendor/lib64/hw/android.hardware.bluetooth.audio_sw.so': blob_fixup()
+        .add_needed('libbluetooth_audio_session_qti_shim.so')
+        .binary_regex_replace(b'BluetoothAudioSession14GetAudioConfigEv', b'BluetoothAudioSession14GetAudioConfQtEv'),
     'vendor/lib64/libaudioserviceexampleimpl.so': blob_fixup()
         .add_needed('libaudioutils_shim.so')
         .add_needed('libbluetooth_audio_session_aidl_shim.so')

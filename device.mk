@@ -111,7 +111,8 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
-    libbluetooth_audio_session_aidl_shim
+    libbluetooth_audio_session_aidl_shim \
+    libbluetooth_audio_session_qti_shim
 
 PRODUCT_PACKAGES += \
     lib_bt_aptx \

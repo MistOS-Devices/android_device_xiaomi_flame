@@ -1,0 +1,16 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_shared {
+    name: "libbluetooth_audio_session_qti_shim",
+    srcs: ["BluetoothAudioSession.cpp"],
+    shared_libs: [
+        "libbinder_ndk",
+        "libdl",
+        "liblog",
+    ],
+    static_libs: ["lineage.compat.bluetooth.audio.v4-ndk"],
+    vendor: true,
+}
